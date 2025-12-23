@@ -1,0 +1,374 @@
+<style> 
+  h1 {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white;}
+  h2 {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(0, 0, 0);}
+  h3 {font-family:'Times New Roman', Times, serif; color: black;}
+  p {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(0, 0, 0);}
+  body {
+    background-image: url(https://th.bing.com/th/id/R.37faf65042c8f85a82cc0c78a975ed69?rik=TLXtrAwYCsIpKg&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: black;
+    display: flex;
+    justify-content: center;
+  }
+  button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-family: 'Segoe UI';
+    
+    width: 2cm; 
+    padding: 5px; 
+    margin: 0 auto;
+  }
+  .title {
+    height: 40px;
+    width: 100vW;
+    top: 0px;
+    left: 50vw;
+    border: 0px solid black;
+    background: linear-gradient(120deg, rgb(79, 79, 79) 20%,#222222 80%);
+    border-radius: 0px;
+    box-shadow: 0px 5px 5px;
+    
+    padding: 10px;
+    position:fixed;
+    z-index: 10;
+    transform: translate(-50%);
+    margin: 0;
+    margin-bottom: 10px;
+    align-items: left;
+    display: flex;
+    flex-direction: column;}
+    .title > * {
+      position: relative;
+      top: -23px;
+      left: 20px;}
+  .menu {
+    height: 50px;
+    width: 14cm;
+    top: 0px;
+    right: 25px;
+    z-index: 1;
+    padding: 5px;
+    position:fixed;
+    margin: 0;
+    justify-content: flex-end;
+    display: flex; 
+    margin-left: auto;
+    flex-direction: row;}
+
+    .menu > * {
+      position: relative;
+      width: fit-content;
+    }
+  .news {
+    height: 75vh;
+    min-height: fit-content;
+    width:100vw;
+    top: 60px;
+    border-radius: 7px;
+    
+    padding: 10px;
+    padding-top: 80px;
+    margin: 0;
+    position:absolute;
+    justify-content: center;
+
+    display: flex;
+    flex-direction: row wrap;
+    flex-wrap: wrap;}
+    .news > * {
+      position: relative;
+      top: -12px;}
+</style>
+
+
+
+
+<div class="title">
+<h1>Coral Bleaching</h1>
+
+  <div class= "menu">
+
+  <button onclick="home()"> <b><u>Home</u></b> </button>
+
+  <script> function Home() 
+  {
+  window.location.href = "index.html"
+  }
+  </script>
+
+
+  <br>
+  <button onclick="games()">  <b>More Resources</b> </button>
+
+  <script> function games() 
+  {
+  window.location.href = "resources.html"
+  }
+  </script>
+
+  <br>
+  <button onclick="shop()"> <b>About Us</b></button>
+
+  <script> function shop() 
+  {
+  window.location.href = "aboutus.html"
+  }
+  </script>
+  </div>
+</div>
+
+
+
+<div class= "news">
+
+<div class= "newsstory1"  style= "font-size: 11px"onclick = "news1()">
+  <h2 style="font-size: 25px; width: 100%+30px; border-bottom: 3px solid black; padding: 5px 0.7cm; align-items: center;
+  background: linear-gradient(150deg, rgb(255, 0, 0) 0%, rgb(185, 0, 0) 50%, rgb(107, 0, 0) 100%); margin: -3 -15; color: white; 
+  border-top-left-radius: 10px; border-top-right-radius: 10px;">
+
+    What are Corals?
+  <h2>
+  <img class="newsimg1" src= "https://cdn.pixabay.com/photo/2024/06/23/19/22/coral-reef-8848654_1280.jpg">
+   <p>
+   Corals are a type of animal in the phylum cnidaria. They live in colonies, building calcium carbonate skeletons around them that over time create the huge reefs that host a huge range of other creatures.
+Corals live in nutrient poor waters, which may initially seem counterintuitive. How does such a diverse ecosystem survive on nothing? They subsist through a symbiotic relationship with coral and a type of algae, known as zooxanthallae.The algae provide energy for the coral, and the coral provide protection. The nutrient poor waters do not allow other types of algae to grow, keeping the water clear and allowing for high efficiency in the coral.
+Corals provide structure and energy for 25% of the earth’s ocean life, while covering less than 1% of the ocean floor. They also support almost a billion people, around ⅛ of the entire earth’s population.
+
+  </p>
+
+  <br>
+</div> 
+
+<br>
+<div class= "newsstory2"  style= "font-size: 11px"onclick = "news1()">
+  <h2 style="font-size: 25px; width: 100%+30px; border-bottom: 3px solid black; padding: 5px 0.7cm; align-items: center;
+  background: linear-gradient(150deg, rgb(0, 23, 193) 0%, rgb(2, 0, 126) 50%, rgb(4, 0, 75) 100%); margin: -3 -15; color: white; 
+  border-top-left-radius: 10px; border-top-right-radius: 10px;">
+
+    Whats happening to them?
+  <h2>
+  <img class="newsimg1" src= "https://tse4.mm.bing.net/th/id/OIP.btzvskCR_kK17g2EHYkq0QHaFj?w=267&h=200&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1">
+   <p>
+    That said, coral reefs are very close to being destroyed forever. Already, 50% of corals have died^citation needed.
+     Why are they dying? Climate change is warming the oceans, and the heat is causing something called coral bleaching. 
+     Coral bleaching is when the coral turns white. When ocean temperatures rise too much, even a very small amount like a couple degrees celsius,
+    the algae in the coral polyps start to produce toxins. The coral have to eject the algae or they will die, 
+    and since the algae provide the coloration and a large part of the coral’s food, the corals turn white and start to die.
+    They do not die immediately, because they can filter small amounts of food from the water, but they cannot survive long in this state.
+     When a coral does die, strands of algae start to grow on it. 
+    The accelerated global warming of the last half century is making it plainly obvious the effects climate change has on coral reefs.
+    Before 1998, bleaching was rare and a result of special circumstances. 1998 saw the first global bleaching event in recorded history,
+    and they have only been growing more common since then. Since 1998, there have been events in 2010, 2016-2017, 2023, 2024, and 2025.
+    Notice the time in between each event as we grow closer to the present.They didn’t happen at all until 1998, and then 20 years passed until the next one,
+    and then one happened 5 years after that, and now they are happening almost every year. In short, 
+     it sucks to be a coral(or one of the nearly billion people who depend on them). 
+	  It’s also not just bleaching that endangers corals. Increased carbon dioxide levels causes ocean acidification, 
+   which dissolves the calcium carbonate skeletons of the coral and kills them.
+   Pollution can cause the water to be dangerous for coral or can stimulate algae growth too much and create a dead zone, 
+   where extremely low oxygen levels kill everything in the area. Over exploitation of reefs for commercial fishing purposes is also very harmful, 
+   because when a species is overfished the food web collapses and predators of harmful algae die off and the algae stifles coral.
+    Normally coral polyps are robust creatures and can regenerate lost body parts with ease, but without the ability to produce food this adaptability is useless. 
+
+
+  </p>
+
+  <br>
+</div> 
+
+<div class= "newsstory3"  style= "font-size: 11px"onclick = "news1()">
+  <h2 style="font-size: 25px; width: 100%+30px; border-bottom: 3px solid black; padding: 5px 0.7cm; align-items: center;
+  background: linear-gradient(150deg, rgb(229, 225, 0) 0%, rgb(130, 128, 0) 50%, rgb(104, 102, 0) 100%); margin: -3 -15; color: white; 
+  border-top-left-radius: 10px; border-top-right-radius: 10px;">
+
+    What's being done?
+  <h2>
+  <img class="newsimg1" src= "https://th.bing.com/th/id/OIP.KN6-TlUAGYLoCgoTqKgKiwHaHa?w=174&h=180&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3">
+   <p>
+    Some people and organizations are using a variety of strategies to try to save coral reefs. 
+    One method is to breed coral to be more resistant to changes. Another is making more comprehensive regulations for tourism and commercial fishing. 
+    But the main root of the problem, climate change, soldiers on unassailable. 
+	Now that we know that climate change is destroying coral reefs and countless other ecosystems,
+   why can’t anyone seem to do anything about it? The problem is, people are making a lot of money off destroying the earth. 
+   Fossil fuel companies don’t want their money to be hindered by new regulations. They’re used to their hundred years of uninterrupted profits, 
+   and they will do whatever they can to stop people from taking action. They just throw money at their problems until they go away. But as powerful as 
+   these big corporations are, they can’t work against the entire rest of the human race. So spread awareness about climate change, its potential to
+    destroy coral reefs and a lot of other stuff, and we can change our course before it is too late.
+
+  <br>
+</div> 
+
+<div class= "newsstory4"  style= "font-size: 11px"onclick = "news1()">
+  <h2 style="font-size: 25px; width: 100%+30px; border-bottom: 3px solid black; padding: 5px 0.7cm; align-items: center;
+  background: linear-gradient(150deg, rgb(13, 255, 0) 0%, rgb(0, 185, 15) 50%, rgb(2, 107, 0) 100%); margin: -3 -15; color: white; 
+  border-top-left-radius: 10px; border-top-right-radius: 10px;">
+
+    What's being done?
+  <h2>
+  <img class="newsimg1" src= "https://th.bing.com/th/id/OIP.KN6-TlUAGYLoCgoTqKgKiwHaHa?w=174&h=180&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3">
+   <p>
+    Some people and organizations are using a variety of strategies to try to save coral reefs. 
+    One method is to breed coral to be more resistant to changes. Another is making more comprehensive regulations for tourism and commercial fishing. 
+    But the main root of the problem, climate change, soldiers on unassailable. 
+	Now that we know that climate change is destroying coral reefs and countless other ecosystems,
+   why can’t anyone seem to do anything about it? The problem is, people are making a lot of money off destroying the earth. 
+   Fossil fuel companies don’t want their money to be hindered by new regulations. They’re used to their hundred years of uninterrupted profits, 
+   and they will do whatever they can to stop people from taking action. They just throw money at their problems until they go away. But as powerful as 
+   these big corporations are, they can’t work against the entire rest of the human race. So spread awareness about climate change, its potential to
+    destroy coral reefs and a lot of other stuff, and we can change our course before it is too late.
+
+  </p>
+
+  <br>
+</div> 
+<div class= "newsstory5" style="display: none;">
+  <img src= "">
+  sdf
+  
+</div>
+</div>
+
+
+<style>
+.news > * {
+      position: relative;
+      top: -12px;
+      display: flex;
+      justify-content: space-between;
+      left: 12px;}
+      
+.newsstory1 {
+    margin: 1.5cm;
+    width: 24cm;
+    height: 10cm;
+    min-height: fit-content;
+    border: 0px solid black;
+    border-radius: 10px;
+    background: linear-gradient(150deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(175, 175, 175) 100%);
+    padding: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: 0px 5px 10px black;
+    display: block;}
+  .newsstory1 > * {
+    margin: 10;
+    margin-top: 20px;
+  }
+  .newsimg1 {
+    width: 9cm;
+    margin: 10;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+    border-radius: 10px;
+  }
+    
+      
+      
+.newsstory2 {
+    margin: 1.5cm;
+    width: 24cm;
+    height: 17cm;
+    min-height: fit-content;
+    border: 0px solid black;
+    border-radius: 10px;
+    background: linear-gradient(150deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(175, 175, 175) 100%);
+    padding: 3px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: 0px 5px 10px black;
+    display: block;}
+  .newsstory2 > * {
+    margin: 10;
+    margin-top: 20px;
+  }
+  .newsimg2 {
+    width: 5cm;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+    border-radius: 10px;
+  }
+      
+.newsstory3 {
+    margin: 1.5cm;
+    width: 24cm;
+    height: 10cm;
+    min-height: fit-content;
+    border: 0px solid black;
+    border-radius: 10px;
+    background: linear-gradient(150deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(175, 175, 175) 100%);
+    padding: 3px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: 0px 5px 10px black;
+    display: block;}
+  .newsstory3 > * {
+    margin: 10;
+    margin-top: 20px;
+  }
+  .newsimg3 {
+    width: 5cm;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+    border-radius: 10px;
+  }
+      
+      
+.newsstory4 {
+    margin: 1.5cm;
+    width: 12cm;
+    height: 10cm;
+    border: 0px solid black;
+    border-radius: 10px;
+    background: linear-gradient(150deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(175, 175, 175) 100%);
+    padding: 3px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: 0px 5px 10px black;
+    display: none;}
+  .newsstory4 > * {
+    margin: 0;
+    margin-top: 20px;
+  }
+  .newsimg4 {
+    width: 5cm;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+    border-radius: 10px;
+  }
+      
+      
+.newsstory5 {
+    height: 20vh;
+    top: 5%;
+    left: 40%;
+    width:50%;
+    border: 3px solid black;
+    background-color: white;
+    
+    padding: 5px;
+    position:fixed;
+    margin: 0;
+    border-radius: 7px;
+    align-items: center;
+    display: none;}
+    
+
+</style>
+
+<script> 
+
+function news1() {
+window.location.href = "news1.html"
+}
+
+function news2() {
+window.location.href = "news2.html"
+}
+</script>  
